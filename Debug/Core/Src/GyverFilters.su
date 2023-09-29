@@ -1,0 +1,29 @@
+../Core/Src/GyverFilters.cpp:8:5:int max(int, int)	16	static
+../Core/Src/GyverFilters.cpp:20:5:int min(int, int)	16	static
+../Core/Src/GyverFilters.cpp:32:1:GFilterRA::GFilterRA()	16	static
+../Core/Src/GyverFilters.cpp:34:1:GFilterRA::GFilterRA(float, uint16_t)	24	static
+../Core/Src/GyverFilters.cpp:39:1:GFilterRA::GFilterRA(float)	16	static
+../Core/Src/GyverFilters.cpp:43:6:void GFilterRA::setCoef(float)	16	static
+../Core/Src/GyverFilters.cpp:46:6:void GFilterRA::setStep(uint16_t)	16	static
+../Core/Src/GyverFilters.cpp:50:7:float GFilterRA::filteredTime(int32_t)	16	static
+../Core/Src/GyverFilters.cpp:64:7:float GFilterRA::filtered(int32_t)	16	static
+../Core/Src/GyverFilters.cpp:69:7:float GFilterRA::filtered(float)	16	static
+../Core/Src/GyverFilters.cpp:75:7:float GFilterRA::filteredAdapt(int32_t, int)	24	static
+../Core/Src/GyverFilters.cpp:87:7:float GFilterRA::filteredAdapt(float, float)	24	static
+../Core/Src/GyverFilters.cpp:100:1:GMedian3::GMedian3()	16	static
+../Core/Src/GyverFilters.cpp:102:5:int GMedian3::filtered(long int)	32	static
+../Core/Src/GyverFilters.cpp:125:1:GMedian::GMedian()	16	static
+../Core/Src/GyverFilters.cpp:126:10:uint32_t GMedian::filtered(uint32_t)	40	static
+../Core/Src/GyverFilters.cpp:224:1:GABfilter::GABfilter(float, float, float)	24	static
+../Core/Src/GyverFilters.cpp:227:6:void GABfilter::setParameters(float, float, float)	40	static
+../Core/Src/GyverFilters.cpp:234:7:float GABfilter::filtered(float)	16	static
+../Core/Src/GyverFilters.cpp:248:1:GKalman::GKalman(float, float, float)	24	static
+../Core/Src/GyverFilters.cpp:251:1:GKalman::GKalman(float, float)	24	static
+../Core/Src/GyverFilters.cpp:255:6:void GKalman::setParameters(float, float, float)	24	static
+../Core/Src/GyverFilters.cpp:260:6:void GKalman::setParameters(float, float)	24	static
+../Core/Src/GyverFilters.cpp:264:7:float GKalman::filtered(float)	40	static
+../Core/Src/GyverFilters.cpp:303:1:GLinear::GLinear()	16	static
+../Core/Src/GyverFilters.cpp:305:6:void GLinear::compute(int*, int*, int)	48	static
+../Core/Src/GyverFilters.cpp:321:7:float GLinear::getA()	16	static
+../Core/Src/GyverFilters.cpp:325:7:float GLinear::getB()	16	static
+../Core/Src/GyverFilters.cpp:329:7:float GLinear::getDelta()	16	static
